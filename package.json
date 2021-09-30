@@ -1,0 +1,28 @@
+{
+    "name": "echo-service",
+    "version": "1.0.0",
+    "description": "nodejs express echo service",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "keywords": [
+        "echo",
+        "dockerfile"
+    ],
+    "author": "gorpher",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.5",
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    }
+}
